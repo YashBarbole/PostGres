@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 async function main() {
@@ -37,4 +35,4 @@ main()
     .finally(async () => {
     await prisma.$disconnect();
 });
-//# sourceMappingURL=create-user.js.map
+export {};
